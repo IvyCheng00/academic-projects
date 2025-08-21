@@ -65,7 +65,7 @@ for face in faces:
     cv2.drawContours(img, [right_eye_rect_points], 0, (0, 255, 0), 2)
 
     # 判斷是否在 wink
-    is_winking = short_side_diff > 1.0  # 調整閾值來適應實際情況
+    is_winking = short_side_diff > 1.0
 
     # 在圖像上標記 wink 的狀態
     wink_status = "Winking" if is_winking else "Not Winking"
@@ -80,3 +80,4 @@ cv2.imshow('Wink Dectection', img)
 #cv2.imshow(img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
