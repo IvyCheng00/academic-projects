@@ -3,10 +3,10 @@
 A simple chatbot application, providing an interactive chat interface that runs in a web browser.
 
 
-**persistent-chatbot**
+## persistent-chatbot
 
-**rag-chatbot**
+## rag-chatbot
 
-**optimized-chatbot**
+## optimized-chatbot
 
-**custom-image-generator**
+## custom-image-generator
