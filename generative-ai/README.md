@@ -1,3 +1,5 @@
+**The following scripts are all intended to be run in Colab.**
+
 ## api-chatbot
 A simple chatbot application, providing an interactive chat interface that runs in a web browser.
 
@@ -11,3 +13,4 @@ RAG (Retrieval-Augmented Generation) chatbot. This chatbot can access external d
 The chatbot can review, refine, and enhance text based on the user’s input, improving clarity, style, and tone.
 
 ## custom-image-generator
+Users can input a text prompt to generate cartoon-style images.
